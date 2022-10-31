@@ -1,6 +1,8 @@
+
 const APP_ID = "your app id";
 const TOKEN = "your token";
 const CHANNEL = "main";
+
 
 const client = AgoraRTC.createClient({ mode: "rtc", codec: "vp8" });
 
